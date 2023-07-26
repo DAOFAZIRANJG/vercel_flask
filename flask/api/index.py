@@ -1,10 +1,10 @@
-from flask import Flask, render_template
+从瓶进口烧瓶，渲染模板
 
-app = Flask(__name__)
+app =瓶（__姓名_ _)
 
-@app.route('/')
-def welcome():
-    return render_template('welcome.html')
+@app.route（'/')
+极好的 欢迎（)：
+    返回 渲染模板（'https://xht.aust001.com ')
 
-if __name__ == '__main__':
-    app.run(debug=True)
+如果__name__ ==__main__ '：
+app。奔跑（调试=真实的)
